@@ -1,5 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #f6f6f6;
 }
 
 form {
@@ -111,7 +112,9 @@ h1, h2, h3 {
   float: left;
   overflow: hidden;
   position: relative;
-  text-align: center;
+	text-align: center;
+	border: solid 2px #737373;
+	border-radius: 10px;
 }
 
 .hovereffect .overlay {
@@ -196,6 +199,10 @@ h1, h2, h3 {
 }
 
 footer {
-	background-color: #f6f6f6;
+	background-color: #FFFFFF;
 	padding: 20px 0;
+}
+
+.badge {
+	font-size: 90%;
 }
